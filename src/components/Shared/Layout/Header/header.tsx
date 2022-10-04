@@ -11,8 +11,6 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import Logo from './logo';
 
-import Grid from '@mui/material/Grid'
-
 // CHANGE THESE LATER
 const pages = ['Products', 'Pricing', 'Blog'];
 
@@ -40,7 +38,7 @@ const Header = () => {
             component="a"
             href="/"
             sx={{
-              mr: 2,
+              mr: 0,
               display: { xs: 'none', md: 'flex' },
               fontFamily: 'monospace',
               fontWeight: 700,
@@ -49,13 +47,12 @@ const Header = () => {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            ChubbyBot
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
-              aria-label="account of current user"
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
@@ -96,7 +93,7 @@ const Header = () => {
             href=""
             sx={{
                 mr: 2,
-                display: { xs: 'flex', md: 'none' },
+                display:{ xs: 'flex', md: 'none' },
               flexGrow: 1,
               fontFamily: 'Silkscreen',
               fontWeight: 700,
@@ -107,7 +104,7 @@ const Header = () => {
           >
             ChubbyBot
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex'}, ml: 5 }}>
             {pages.map((page) => (
               <Button
                 key={page}
