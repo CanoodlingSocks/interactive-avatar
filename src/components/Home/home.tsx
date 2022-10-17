@@ -12,7 +12,7 @@ function Home() {
         "AnimuLela"
     ];
 
-    const [image, setImage] = useState<string>();
+    const [image, setImage] = useState<string>("Lela");
 
     let SelfieType = {
         randomImage: image
