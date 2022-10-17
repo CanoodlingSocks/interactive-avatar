@@ -7,4 +7,4 @@ In this project I've experimented with vector graphics, making a navbar with a v
 
 I want to make the website repsonsive with a desktop and a mobile mode using Material-UI.
 
-![Hey it's me!](src\example-img\Lela.png?raw=true "Lela")
+![Hey it's me!](src\example-img\Lela.png)
