@@ -1,26 +1,39 @@
 import Box from '@mui/material/Box'
-import SelfieIcon from './selfie-icon';
+import SelfiePicker from '../Selfies/selfie-picker';
 import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+import {useState} from "react";
 
 function Home() {
-    return (
-        <>
-        <Box 
-        display="flex"
-        justifyContent="center"
-        >
-            <SelfieIcon />
-        </ Box>
-        <Box
+
+   
+const [toggle, setToggle] = useState<boolean>(false);
+
+let SelfieType = {
+    togglebtn: toggle
+}
+    
+    return(
+<>
+<Box
+display="flex"
+justifyContent="center"
+>
+<SelfiePicker {...SelfieType}/>    
+</Box>
+<Box
         display="flex"
         justifyContent="center"
         m="2rem"
         >
-            <Typography variant="h5">
-        Daniela
-      </Typography>
+<Button 
+variant="contained"
+onClick={() => setToggle(!toggle)}
+>
+    Change hair
+    </Button>
         </Box>
-        </>
+</>
     )
 }
 
