@@ -1,4 +1,6 @@
-# Personal project using React, TypeScript and Material-UI
+# Interactive vector Avatar
+
+## This is a personal project where I'm using React, TypeScript and Material-UI
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
