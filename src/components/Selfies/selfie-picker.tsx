@@ -1,6 +1,5 @@
 import SelfieIcon from "./selfie-icon";
 import EmoSelfieIcon from "./emoselfie-icon";
-import {useState} from "react";
 
 type SelfieType = {
     type: SelfieType
