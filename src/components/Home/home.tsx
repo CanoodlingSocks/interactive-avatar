@@ -49,7 +49,7 @@ function Home() {
                     variant="contained"
                     onClick={() => randomizeImg()}
                 >
-                    Change hair
+                    Change Me
                 </Button>
             </Box>
         </>
