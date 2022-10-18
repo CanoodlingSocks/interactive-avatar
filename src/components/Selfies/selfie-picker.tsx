@@ -1,6 +1,7 @@
 import SelfieIcon from "./selfie-icon";
 import EmoSelfieIcon from "./emoselfie-icon";
 import AnimuSelfieIcon from "./animuselfie-icon";
+import ShortHairSelfieIcon from "./shorthairselfie-icon";
 
 type SelfieType = {
     type: SelfieType
@@ -9,14 +10,19 @@ type SelfieType = {
 
 const SelfiePicker = (props: any) => {
 
-    //TODO: Change this to a switch case
+const imageNames = props.randomImage
 
-    if (props.randomImage === "EmoLela") {
-        return <EmoSelfieIcon />
-    } else if (props.randomImage == "Lela") {
-        return <SelfieIcon />
-    } else {
-        return <AnimuSelfieIcon />
+    switch (imageNames) {
+        case "EmoLela":
+            return <EmoSelfieIcon />
+        case "Lela":
+            return <SelfieIcon />
+        case "AnimuLela":
+            return <AnimuSelfieIcon />
+        case "ShortHairLela":
+            return <ShortHairSelfieIcon />
+        default:
+            return <SelfieIcon />
     }
 }
 

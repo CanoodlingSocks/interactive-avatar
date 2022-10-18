@@ -9,7 +9,9 @@ function Home() {
     const images = [
         "Lela",
         "EmoLela",
-        "AnimuLela"
+        "AnimuLela",
+        "ShortHairLela",
+        
     ];
 
     const [image, setImage] = useState<string>("Lela");
