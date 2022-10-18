@@ -11,7 +11,9 @@ function Home() {
         "EmoLela",
         "AnimuLela",
         "ShortHairLela",
-        
+        "BraidedLela",
+        "VulcanLela",
+        "StraightHairLela"
     ];
 
     const [image, setImage] = useState<string>("Lela");
