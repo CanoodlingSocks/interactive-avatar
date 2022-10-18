@@ -13,7 +13,12 @@ function Home() {
         "ShortHairLela",
         "BraidedLela",
         "VulcanLela",
-        "StraightHairLela"
+        "StraightHairLela",
+        "BracesLela",
+        "LelaOfGreenGables",
+        "WhatTheCat",
+        "RinguLela",
+        "DudeLela"
     ];
 
     const [image, setImage] = useState<string>("Lela");

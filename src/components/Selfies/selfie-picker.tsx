@@ -5,6 +5,11 @@ import ShortHairSelfieIcon from "./shorthairselfie-icon";
 import BraidedSelfieIcon from "./braidedselfie-icon";
 import VulcanSelfieIcon from "./vulcanselfie-icon";
 import StraightHairSelfieIcon from "./straighthairselfie-icon";
+import BracesSelfieIcon from "./bracesselfie-icon";
+import CatIcon from "./cat-icon";
+import GreenGablesSelfieIcon from "./greengablesselfie-icon";
+import TheRingSelfieIcon from "./theringselfie-icon";
+import DudeSelfieIcon from "./dudeselfie-icon";
 
 type SelfieType = {
     type: SelfieType
@@ -26,11 +31,20 @@ const imageNames = props.randomImage
             return <ShortHairSelfieIcon />
         case "BraidedLela":
             return <BraidedSelfieIcon />
-
         case "VulcanLela":
             return <VulcanSelfieIcon />
         case "StraightHairLela":
             return <StraightHairSelfieIcon />
+        case "BracesLela":
+            return <BracesSelfieIcon />
+        case "WhatTheCat":
+            return <CatIcon />
+        case "LelaOfGreenGables":
+            return <GreenGablesSelfieIcon />
+        case "RinguLela":
+            return <TheRingSelfieIcon />
+        case "DudeLela":
+            return <DudeSelfieIcon />
         default:
             return <SelfieIcon />
     }
