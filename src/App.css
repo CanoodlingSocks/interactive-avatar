@@ -1,14 +1,8 @@
-Silkscreen {
-  font-family: 'Silkscreen', sans-serif;
-}
 
-@import
-url("https://fonts.google.com/specimen/Silkscreen");
-/* 
-.hair {
-  fill: rgb(49, 210, 0);
-} */
+/* Hardcoded values for colour change */
 
+
+/* Emo palette */
 /* .hair {
   fill: rgb(0, 0, 0);
 }
