@@ -12,8 +12,10 @@ I want to make the website repsonsive with a desktop and a mobile mode using Mat
 ### Hey, it's me!
 ![Selfie](https://github.com/CanoodlingSocks/mui-responsive-app/blob/master/src/example-img/Lela.png)
 
-### Change hairstyle!
-![Short hair me](https://github.com/CanoodlingSocks/mui-responsive-app/blob/master/src/example-img/DifferentLela.png)
+![](https://...Dark.png)  |  ![](https://...Ocean.png)
+### Change hairstyle!      | ### Change colour with a colour-picker! (To be implemented)
+:-------------------------:|:-------------------------:
+![Short hair me](https://github.com/CanoodlingSocks/mui-responsive-app/blob/master/src/example-img/DifferentLela.png) | ![Emo me](https://github.com/CanoodlingSocks/mui-responsive-app/blob/master/src/example-img/EmoLela.png)
 
-### Change colour with a colour-picker! (To be implemented)
-![Emo me](https://github.com/CanoodlingSocks/mui-responsive-app/blob/master/src/example-img/EmoLela.png)
+
+
